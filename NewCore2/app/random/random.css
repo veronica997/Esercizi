@@ -1,0 +1,22 @@
+@import '~@nativescript/theme/css/default.css';
+ListView {
+    margin: 5;
+}
+
+Label {
+    margin: 10;
+    horizontal-align: left;
+    vertical-align: center;
+}
+
+TextField {
+    border-width: 5;
+    /*animation-duration: 60s;
+    animation-direction: initial;*/
+}
+
+Button {
+    float: left;
+    font-size: 10px;
+    width: 200px;
+}

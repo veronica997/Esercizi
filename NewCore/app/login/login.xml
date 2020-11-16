@@ -1,0 +1,12 @@
+<Page loaded="loginLoaded">
+    <StackLayout orientation="vertical">
+        <Image src="https://www.nativescript.org/images/default-source/Blogs/ns-logo_share_600x315.png" stretch="none" horizontalAlignment="center" />
+        <TextField id="email" text="{{ email }}" hint = "Email Addresssss" keyboardType="email" autocorrect= "false" autocapitalizationType="none" />
+        <TextField hint= "Password" text= "{{password}}" secure = "true" />
+
+
+        <Button text="Sign in" tap="SignIn" />
+        <Button text="Register" class="link" tap="Register" />
+    </StackLayout>
+
+</Page>
